@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>天津大学仁爱学院BBS论坛</title>
+
+    <!--Loading CSS-->
+    <link href="dist/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/flat-ui.css" rel="stylesheet">
+    <link href="dist/css/bootstrapValidator.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body style="overflow-x: hidden; ">
+    <div style="margin-left:20px">
+		<div class="row">
+			<div class="col-md-9">
+			    <h1>欢迎登录</h1>
+        
+                <div id="time" style="font-size:30px">
+                现在时间是    
+                <script>     
+                    document.getElementById('time').innerHTML=new Date().toLocaleString();     
+                    setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString();",1000);  
+                </script>    
+                </div> 
+            </div>
+            
+            <div class="col-md-2">
+                <div class="tile" style="margin-top:30px;height:318px">
+                <img src="img/ribbon.svg" alt="ribbon" class="tile-hot-ribbon">
+                <img src="img/Book.png" alt="Chat" class="tile-image">
+                <h3 class="tile-title">教务网</h3>
+                <p>天津大学仁爱学院教务管理系统</p>
+                <a class="btn btn-primary btn-large btn-block" href="http://jw.tjrac.edu.cn/" target="_blank">前往</a>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--Loading JS-->
+    <script src="dist/js/vendor/jquery.min.js"></script>
+    <script src="dist/js/flat-ui.min.js"></script>
+    <script src="dist/js/application.js"></script>
+</body>
+</html>
